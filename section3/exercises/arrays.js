@@ -28,12 +28,14 @@ console.log(animals.length);
 
 // YOU DO: Write code that will reassign the last item in the animals
 // array to "Gorilla"
-console.log(animals[2] = 'Gorilla');
+animals[2] = 'Gorilla';
+console.log(animals);
 //output = ["Zebra", "Giraffe", "Gorilla"]
 //MY NOTES: The '2' inside the brackets is telling the code to put 'Gorilla' in index #2
 
 // YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-console.log(animals.push("Mouse"));
+animals.push = "Mouse";
+console.log(animals);
 //output = ["Zebra", "Giraffe", "Elephant", "Mouse"]
 //MY NOTES: ".push" is telling the code to add another element to the 'END' of the arrays.
     // I like to think of it as "Hey you! Add another box to the stack and PUSH it to far back."
@@ -57,20 +59,26 @@ console.log(foods.length);
 
 // YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 // log the changed array to verify "broccoli" has been added
-console.log(foods.push('Broccoli'));
+foods.push('Broccoli');
 console.log(foods);
 // output = ['Pizza', 'Nacos', 'Tacos', 'Pita', 'Broccoli'];
 
 // YOU DO: Write code below that removes the last item of food from the foods array and
 // log the changed array to verify that item has been removed
-console.log(foods.pop('Broccoli'));
+foods.pop();
+console.log(foods);
+//    OR
+foods.pop('Broccoli');
 console.log(foods);
 //output = ['Pizza', 'Nacos', 'Tacos', 'Pita']
 
 // YOU DO: Write code to add 3 new foods to the array.
   // There are several ways to do this - choose whichever you'd like!
 // Then, log the changed array to verify the new items have been added
-console.log(foods.unshift('Lettuse', 'Beer', 'Cheese'));
+foods.unshift('Lettuse', 'Beer', 'Cheese');
+console.log(foods);
+
+
 console.log(foods);
 //output = ['Lettuse', 'Beer', 'Cheese','Pizza', 'Nacos', 'Tacos', 'Pita']
 
@@ -123,11 +131,17 @@ var percentBatteryLeft = 12;
 var hasCharger = true;
 var chargerType = "car";
 
-if (percentBatteryLeft < 15 && hasCharger === true && chargerType === 'car') {
-  console.log("Aint gonna happen 'guy', not enough juice for an Uber.")
-} else if (percentBatteryLeft >= 15 && hasCharger === true && chargerType === 'car') {
+if (percentBatteryLeft >= 15 || hasCharger === true || chargerType === 'car') {
   console.log("You can call an Uber and charge your phone!")
+} else {
+  console.log("You can not call an Uber")
 }
+//old version below.
+// if (percentBatteryLeft < 15 && hasCharger === true && chargerType === 'car') {
+//   console.log("Aint gonna happen 'guy', not enough juice for an Uber.")
+// } else if (percentBatteryLeft >= 15 && hasCharger === true && chargerType === 'car') {
+//   console.log("You can call an Uber and charge your phone!")
+// }
 
 //My practice below:____________________________________________________________
 var brushingTime = 10;

@@ -44,9 +44,11 @@ for (var i = 0; i < 7; i++) {
 
 // YOU DO: Write code below that logs to the console a String of "This is loop number: "
 //that concatenates with `i`.
+for (var i = 0; i < 10; i++) {
+console.log("This is a loop number " + [i])
+}
 
 // YOU DO: Using a for loop, how could you get an output that looks like this:
-
 // 10
 // 9
 // 8
@@ -57,9 +59,8 @@ for (var i = 0; i < 7; i++) {
 // 3
 // 2
 // 1
-
-for (var i = 1; i < 11; i++) {
-  console.log("This is loop number " + [i])
+for (var i = 10; i > 0; i--) {
+  console.log(i)
 }
 
 // Not sure? Try to google some terms that seem relevant. Play around with it. Don't spend
