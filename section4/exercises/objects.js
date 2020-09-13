@@ -79,39 +79,13 @@ Log your email object to the console.
 var emailSetup = {
 
   newMessage: 'Good afternoon new students',
-    fontChoice: 'Georgia',
-    sender: "From Ms. Tasha",
-    attachment: "PDF_Calander_ouline.pdf",
-    junkMail: false,
-    priority: ['Low', 'Medium', 'High']
+  fontChoice: 'Georgia',
+  sender: "From Ms. Tasha",
+  attachment: "PDF_Calander_outline.pdf",
+  junkMail: false,
+  priority: ['Low', 'Medium', 'High']
 };
 console.log(emailSetup);
-
-// var newMessage = {
-//   firstMessage: true,
-//   draft: false,
-//   cc: 0,
-//   Bcc: 0,
-//   recipient: "Name",
-//   subjectLineFilledOut: true,
-//   sendWithAttahments: true,
-//   fontChoice: ['Ariel','Sans Serif', 'Wide', 'Georgia'],
-//   fontBold: false,
-//   fontItalic: false,
-//   textColor: ['Black', 'Red', 'Greend', 'Blue'],
-// };
-// console.log(newMessage);
-
-/*
-//NOTE: this is a extra example below
-inboxMessages = {
-  read: true,
-  unread: true,
-  mailBoxType1: "Primary",
-  mailBoxType2: "Social",
-  mailBoxType3: "Promotions",
-};
-*/
 
 
 //-------------------

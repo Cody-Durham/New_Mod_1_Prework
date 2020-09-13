@@ -13,8 +13,34 @@ Make sure to run the file with node in your command line.
 // Log to the console each property on the `lunchOrder` object.
 // Call each method and run the file in node to verify they are working as expected.
 
+
+
+
 var lunchOrder = {
   dish: "BLT",
   beverage: "iced tea",
-  tableNumber: 47
-}
+  tableNumber: 47,
+  prepare: function() {
+    console.log("Your sandwich is being made and will be served shortly.")
+  },
+  complete: function() {
+    console.log("Your sandwich is ready.")
+  }
+};
+
+// Im not able to get both of these to run at the same time and I cant figure out why. Is my syntax wrong?
+// In order for me to get it to work I have to comment out each section and then it works fine. Thoughts?
+lunchOrder.prepare();
+lunchOrder.complete();
+
+
+// Im not able to get both of these to run at the same time and I cant figure out why. Is my syntax wrong?
+// In order for me to get it to work I have to comment out each section and then it works fine. Thoughts?
+
+
+
+// var lunchOrder = {
+//   dish: "BLT",
+//   beverage: "iced tea",
+//   tableNumber: 47
+// }
