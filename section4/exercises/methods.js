@@ -28,14 +28,11 @@ var lunchOrder = {
   }
 };
 
-// Im not able to get both of these to run at the same time and I cant figure out why. Is my syntax wrong?
-// In order for me to get it to work I have to comment out each section and then it works fine. Thoughts?
 lunchOrder.prepare();
 lunchOrder.complete();
 
 
-// Im not able to get both of these to run at the same time and I cant figure out why. Is my syntax wrong?
-// In order for me to get it to work I have to comment out each section and then it works fine. Thoughts?
+
 
 
 
