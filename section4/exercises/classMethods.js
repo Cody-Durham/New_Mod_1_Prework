@@ -43,17 +43,17 @@ class Burrito {
 }
 
 var chickenBurrito = new Burrito("chicken", "lettuse", "tomatoes")
-    console.log(chickenBurrito);
-  chickenBurrito.changeProtein();
-    console.log(chickenBurrito);
+console.log(chickenBurrito);
+chickenBurrito.changeProtein();
+console.log(chickenBurrito);
 
 var smotheredBreakfast = new Burrito("eggs", "hashbrowns", "greenChili")
-    console.log(smotheredBreakfast);
-  smotheredBreakfast.addTopping();
-    console.log(smotheredBreakfast);
+console.log(smotheredBreakfast);
+smotheredBreakfast.addTopping();
+console.log(smotheredBreakfast);
 
 
 var beefBurrito = new Burrito("beef", "brownRice", "cheese")
-    console.log(beefBurrito);
-  beefBurrito.addTopping();
-      console.log(beefBurrito);
+console.log(beefBurrito);
+beefBurrito.addTopping();
+console.log(beefBurrito);
